@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(https://img.freepik.com/free-photo/assortment-teacher-s-day-elements_23-2149044959.jpg?w=1060&t=st=1693638127~exp=1693638727~hmac=6c47723b3ef2db5749cb59d87f467f568c89338de6574fec217b3b98287ddc9d)  ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: "Numans", sans-serif;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Style form inputs and labels */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style success and error messages */
+.success-message {
+    color: green;
+    font-weight: bold;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}
